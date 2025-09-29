@@ -1,6 +1,6 @@
 def ticket_cost(age: int, daytype: str):
     if age < 0 or age > 100:
-        return "Lỗi age"
+        return "Lỗi Age"
     if daytype not in ["Weekday", "Weekend"]:
         return "Lỗi DayType"
     
